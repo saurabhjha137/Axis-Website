@@ -1,11 +1,37 @@
+body {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #23527c;
+    text-decoration: underline;
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
 }
 
+.container {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+
 .main{
     width: 100%;
-    background-color:black ;
+    
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -90,10 +116,11 @@ ul li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background: #ff7200;
-    border: 2px solid #ff7200;
-    margin-top: 13px;
+    background-color: #337ab7;
+    border-color: #2e6da4;
     color: #fff;
+    margin-top: 13px;
+    
     font-size: 15px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -101,7 +128,9 @@ ul li a:hover{
     cursor: pointer;
 }
 .btn:hover{
-    color: #000;
+    background-color: #23527c;
+    border-color: #204d74;
+    color: #fff;
 }
 
 .btn:focus{
@@ -275,7 +304,7 @@ ul li a:hover{
 }
 
 .contactUs{
-    margin-left: 80px;
+    margin-left: 20px;
     height: fit-content;
     float: left;
     width: 500px;
