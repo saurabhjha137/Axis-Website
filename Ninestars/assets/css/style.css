@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
@@ -919,6 +921,7 @@ section {
 }
 
 .team .member {
+  
   margin: 0 auto;
   text-align: center;
   text-align: center;
